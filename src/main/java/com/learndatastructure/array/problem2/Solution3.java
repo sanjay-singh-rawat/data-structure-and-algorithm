@@ -30,7 +30,7 @@ public class Solution3 {
     private static int sockMerchant(int n, int[] ar) {
         Arrays.sort(ar);
         int pair = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n - 1; i++) {
             if (ar[i] == ar[i+1]) {
                 pair++;
                 i++;
