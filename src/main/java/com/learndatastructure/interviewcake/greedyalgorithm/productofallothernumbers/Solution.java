@@ -1,4 +1,4 @@
-package com.learndatastructure.interviewcake.greedyalgorith.productofallothernumbers;
+package com.learndatastructure.interviewcake.greedyalgorithm.productofallothernumbers;
 
 import com.learndatastructure.utils.JUnitUtils;
 import org.junit.jupiter.api.Test;

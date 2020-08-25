@@ -1,4 +1,4 @@
-package com.learndatastructure.interviewcake.greedyalgorith.highestproductof3;
+package com.learndatastructure.interviewcake.greedyalgorithm.highestproductof3;
 
 import com.learndatastructure.utils.JUnitUtils;
 import org.junit.jupiter.api.Test;

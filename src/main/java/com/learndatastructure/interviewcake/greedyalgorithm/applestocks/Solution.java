@@ -1,4 +1,4 @@
-package com.learndatastructure.interviewcake.greedyalgorith.applestocks;
+package com.learndatastructure.interviewcake.greedyalgorithm.applestocks;
 
 import com.learndatastructure.utils.JUnitUtils;
 import org.junit.jupiter.api.Test;

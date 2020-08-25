@@ -1,4 +1,4 @@
-package com.learndatastructure.interviewcake.greedyalgorith.inplaceshuffle;
+package com.learndatastructure.interviewcake.greedyalgorithm.inplaceshuffle;
 
 import java.util.Arrays;
 import java.util.Random;
