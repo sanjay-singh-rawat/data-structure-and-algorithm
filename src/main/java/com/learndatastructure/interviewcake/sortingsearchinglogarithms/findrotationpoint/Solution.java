@@ -49,7 +49,7 @@ public class Solution {
             }
         }
 
-        return ceilingIndex;
+        return ceilingIndex == words.length ? 0 : ceilingIndex;
     }
 
     // tests
@@ -58,6 +58,13 @@ public class Solution {
     public void smallArrayTest() {
         final int actual = findRotationPoint(new String[] {"cape", "cake"});
         final int expected = 1;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void smallArrayNotRotatedTest() {
+        final int actual = findRotationPoint(new String[] {"cake", "cape"});
+        final int expected = 0;
         assertEquals(expected, actual);
     }
 
@@ -75,6 +82,15 @@ public class Solution {
                 new String[] {"ptolemaic", "retrograde", "supplant", "undulate", "xenoepist",
                         "asymptote", "babka", "banoffee", "engender", "karpatka", "othellolagkage"});
         final int expected = 5;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void largeArrayNotRotatedTest() {
+        final int actual = findRotationPoint(
+                new String[] {"asymptote", "babka", "banoffee", "engender", "karpatka", "othellolagkage",
+                        "ptolemaic", "retrograde", "supplant", "undulate", "xenoepist"});
+        final int expected = 0;
         assertEquals(expected, actual);
     }
 
