@@ -1,4 +1,4 @@
-package com.learndatastructure.dp;
+package com.learndatastructure.dp.knapsack.bounded;
 
 import org.junit.jupiter.api.Assertions;
 
