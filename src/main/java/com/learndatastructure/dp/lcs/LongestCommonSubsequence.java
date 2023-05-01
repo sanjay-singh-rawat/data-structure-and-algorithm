@@ -5,6 +5,14 @@ import org.junit.jupiter.api.Assertions;
 import java.util.Arrays;
 
 /**
+ * Command Subsequence = discontinuous common character in two or more string in same sequence.
+ * <p>
+ * 1. match last character, if equal decrement index of both string by 1 and add 1 to result because we have found 1 matching answer.
+ * 2. if last character is different then we have two choices
+ *      i. include str1 character and exclude str2 character
+ *      ii. exclude str1 character and include str2 character
+ *      iii. return the max of above two steps.
+ *
  * @author Sanjay Singh Rawat
  */
 public class LongestCommonSubsequence {
